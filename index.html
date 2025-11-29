@@ -1,0 +1,500 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="https://static.readdy.ai/static/e.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProFix Auto & Heavy Duty Repair</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1d4ed8',
+                        secondary: '#f59e0b'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        :where([class^="ri-"])::before {
+            content: "\f3c2";
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <img width="80px" height="50px" src="https://i.ibb.co.com/L750Ykz/Screenshot-2025-11-28-231815.png">
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-primary transition-colors">Home</a>
+                    <a href="#services" class="text-gray-700 hover:text-primary transition-colors">Services</a>
+                    <a href="#gallery" class="text-gray-700 hover:text-primary transition-colors">Gallery</a>
+                    <a href="#testimonials" class="text-gray-700 hover:text-primary transition-colors">Testimonials</a>
+                    <a href="#contact" class="text-gray-700 hover:text-primary transition-colors">Contact</a>
+                </nav>
+                <button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-blue-700 transition-colors whitespace-nowrap">
+                    Book Now
+                </button>
+                <button class="md:hidden w-6 h-6 flex items-center justify-center">
+                    <i class="ri-menu-line text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="relative min-h-screen flex items-center" style="background-image: url('https://readdy.ai/api/search-image?query=Professional%20automotive%20repair%20shop%20interior%20with%20modern%20equipment%2C%20clean%20organized%20workspace%2C%20mechanics%20working%20on%20vehicles%2C%20bright%20lighting%2C%20industrial%20setting%20with%20blue%20and%20orange%20accent%20colors%2C%20left%20side%20has%20subtle%20gradient%20overlay%20for%20text%20readability%2C%20professional%20photography%20style&width=1920&height=1080&seq=hero001&orientation=landscape'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-gradient-to-r from-white/90 via-white/70 to-transparent"></div>
+        <div class="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-2xl">
+                <h1 class="text-5xl font-bold text-gray-900 mb-6">Expert Automotive & Heavy Duty Repair Services</h1>
+                <p class="text-xl text-gray-700 mb-8">Professional diagnostics, reliable repairs, and exceptional service for all your automotive needs. From routine maintenance to complex heavy-duty repairs, we've got you covered.</p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="bg-primary text-white px-8 py-3 !rounded-button hover:bg-blue-700 transition-colors whitespace-nowrap text-lg">
+                        Schedule Appointment
+                    </button>
+                    <button class="border-2 border-primary text-primary px-8 py-3 !rounded-button hover:bg-primary hover:text-white transition-colors whitespace-nowrap text-lg">
+                        View Services
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">From routine maintenance to complex repairs, we provide comprehensive automotive and heavy-duty services with precision and expertise.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                    <img src="https://readdy.ai/api/search-image?query=Professional%20automotive%20engine%20diagnostic%20service%2C%20mechanic%20using%20advanced%20diagnostic%20equipment%20on%20car%20engine%2C%20clean%20modern%20repair%20shop%20environment%2C%20detailed%20engine%20components%20visible%2C%20professional%20lighting&width=400&height=300&seq=service001&orientation=landscape" alt="Engine Diagnostics" class="w-full h-48 object-cover object-top">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Engine Diagnostics</h3>
+                        <p class="text-gray-600 mb-4">Advanced computer diagnostics to identify and resolve engine performance issues quickly and accurately.</p>
+                        <button class="text-primary hover:text-blue-700 font-medium whitespace-nowrap">Learn More →</button>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                    <img src="https://readdy.ai/api/search-image?query=Heavy%20duty%20truck%20brake%20repair%20service%2C%20large%20commercial%20vehicle%20brake%20system%20maintenance%2C%20professional%20mechanic%20working%20on%20truck%20brakes%2C%20industrial%20automotive%20shop%20setting&width=400&height=300&seq=service002&orientation=landscape" alt="Brake Services" class="w-full h-48 object-cover object-top">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Brake Services</h3>
+                        <p class="text-gray-600 mb-4">Complete brake system inspection, repair, and replacement for both light and heavy-duty vehicles.</p>
+                        <button class="text-primary hover:text-blue-700 font-medium whitespace-nowrap">Learn More →</button>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                    <img src="https://readdy.ai/api/search-image?query=Automotive%20transmission%20repair%20service%2C%20mechanic%20working%20on%20vehicle%20transmission%20system%2C%20professional%20repair%20shop%20environment%2C%20transmission%20components%20and%20tools%20visible&width=400&height=300&seq=service003&orientation=landscape" alt="Transmission Repair" class="w-full h-48 object-cover object-top">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Transmission Repair</h3>
+                        <p class="text-gray-600 mb-4">Expert transmission diagnostics, rebuilds, and replacements for automatic and manual systems.</p>
+                        <button class="text-primary hover:text-blue-700 font-medium whitespace-nowrap">Learn More →</button>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                    <img src="https://readdy.ai/api/search-image?query=Heavy%20duty%20diesel%20engine%20maintenance%20service%2C%20large%20truck%20engine%20repair%2C%20professional%20mechanic%20working%20on%20commercial%20vehicle%20engine%2C%20industrial%20automotive%20workshop&width=400&height=300&seq=service004&orientation=landscape" alt="Heavy Duty Maintenance" class="w-full h-48 object-cover object-top">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Heavy Duty Maintenance</h3>
+                        <p class="text-gray-600 mb-4">Comprehensive maintenance services for commercial trucks, fleet vehicles, and heavy machinery.</p>
+                        <button class="text-primary hover:text-blue-700 font-medium whitespace-nowrap">Learn More →</button>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                    <img src="https://readdy.ai/api/search-image?query=Automotive%20electrical%20system%20repair%2C%20mechanic%20working%20on%20car%20electrical%20components%2C%20diagnostic%20equipment%20and%20wiring%2C%20professional%20repair%20shop%20environment&width=400&height=300&seq=service005&orientation=landscape" alt="Electrical Systems" class="w-full h-48 object-cover object-top">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Electrical Systems</h3>
+                        <p class="text-gray-600 mb-4">Complete electrical system diagnostics and repairs including alternators, starters, and wiring.</p>
+                        <button class="text-primary hover:text-blue-700 font-medium whitespace-nowrap">Learn More →</button>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                    <img src="https://readdy.ai/api/search-image?query=Automotive%20air%20conditioning%20AC%20repair%20service%2C%20mechanic%20working%20on%20vehicle%20climate%20control%20system%2C%20professional%20repair%20shop%20with%20AC%20equipment%20and%20tools&width=400&height=300&seq=service006&orientation=landscape" alt="AC & Heating" class="w-full h-48 object-cover object-top">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">AC & Heating</h3>
+                        <p class="text-gray-600 mb-4">Climate control system repair and maintenance to keep you comfortable year-round.</p>
+                        <button class="text-primary hover:text-blue-700 font-medium whitespace-nowrap">Learn More →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Latest Work</h2>
+                <p class="text-xl text-gray-600">Follow our Instagram for real-time updates on our latest repairs, builds, and shop activities.</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=Instagram%20style%20photo%20of%20completed%20automotive%20engine%20rebuild%2C%20before%20and%20after%20comparison%2C%20professional%20repair%20shop%20background%2C%20social%20media%20photography%20style&width=300&height=300&seq=insta001&orientation=squarish" alt="Engine Rebuild" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=Instagram%20style%20photo%20of%20heavy%20duty%20truck%20brake%20repair%20completion%2C%20professional%20mechanic%20team%20photo%2C%20clean%20repair%20shop%20environment%2C%20social%20media%20style&width=300&height=300&seq=insta002&orientation=squarish" alt="Brake Repair" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=Instagram%20style%20photo%20of%20transmission%20repair%20project%2C%20detailed%20mechanical%20work%2C%20professional%20automotive%20shop%20setting%2C%20social%20media%20photography&width=300&height=300&seq=insta003&orientation=squarish" alt="Transmission Work" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=Instagram%20style%20photo%20of%20diagnostic%20equipment%20in%20use%2C%20modern%20automotive%20technology%2C%20professional%20repair%20shop%20environment%2C%20social%20media%20style%20photography&width=300&height=300&seq=insta004&orientation=squarish" alt="Diagnostics" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=Instagram%20style%20photo%20of%20completed%20vehicle%20restoration%20project%2C%20before%20and%20after%20shots%2C%20professional%20automotive%20shop%2C%20social%20media%20photography%20style&width=300&height=300&seq=insta005&orientation=squarish" alt="Restoration" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=Instagram%20style%20photo%20of%20team%20working%20on%20heavy%20duty%20vehicle%2C%20professional%20mechanics%20collaboration%2C%20modern%20repair%20facility%2C%20social%20media%20style&width=300&height=300&seq=insta006&orientation=squarish" alt="Team Work" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=Instagram%20style%20photo%20of%20electrical%20system%20repair%20completion%2C%20detailed%20wiring%20work%2C%20professional%20automotive%20shop%20environment%2C%20social%20media%20photography&width=300&height=300&seq=insta007&orientation=squarish" alt="Electrical Work" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=Instagram%20style%20photo%20of%20satisfied%20customer%20with%20repaired%20vehicle%2C%20professional%20service%20completion%2C%20automotive%20shop%20background%2C%20social%20media%20style&width=300&height=300&seq=insta008&orientation=squarish" alt="Happy Customer" class="w-full h-full object-cover object-top">
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <button class="bg-secondary text-white px-8 py-3 !rounded-button hover:bg-yellow-600 transition-colors whitespace-nowrap">
+                    <span class="w-5 h-5 flex items-center justify-center inline-block mr-2">
+                        <i class="ri-instagram-line"></i>
+                    </span>
+                    Follow Us on Instagram
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">What Our Customers Say</h2>
+                <p class="text-xl text-gray-600">Don't just take our word for it - hear from our satisfied customers.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex mb-4">
+                        <span class="w-5 h-5 flex items-center justify-center text-yellow-400">
+                            <i class="ri-star-fill"></i>
+                        </span>
+                        <span class="w-5 h-5 flex items-center justify-center text-yellow-400">
+                            <i class="ri-star-fill"></i>
+                        </span>
+                        <span class="w-5 h-5 flex items-center justify-center text-yellow-400">
+                            <i class="ri-star-fill"></i>
+                        </span>
+                        <span class="w-5 h-5 flex items-center justify-center text-yellow-400">
+                            <i class="ri-star-fill"></i>
+                        </span>
+                        <span class="w-5 h-5 flex items-center justify-center text-yellow-400">
+                            <i class="ri-star-fill"></i>
+                        </span>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Outstanding service! They diagnosed my truck's transmission issue quickly and had it running like new. The team is professional, honest, and their prices are fair. Highly recommend!"</p>
+                    <div class="font-semibold text-gray-900">Michael Rodriguez</div>
+                    <div class="text-gray-500 text-sm">Fleet Manager</div>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex mb-4">
+                        <span class="w-5 h-5 flex items-center justify-center text-yellow-400">
+                            <i class="ri-star-fill"></i>
+                        </span>
+                        <span class="w-5 h-5 flex items-center justify-center text-yellow-400">
+                            <i class="ri-star-fill"></i>
+                        </span>
+                        <span class="w-5 h-5 flex items-center justify-center text-yellow-400">
+                            <i class="ri-star-fill"></i>
+                        </span>
+                        <span class="w-5 h-5 flex items-center justify-center text-yellow-400">
+                            <i class="ri-star-fill"></i>
+                        </span>
+                        <span class="w-5 h-5 flex items-center justify-center text-yellow-400">
+                            <i class="ri-star-fill"></i>
+                        </span>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Been bringing my vehicles here for years. They always explain what needs to be done and never try to oversell. The quality of work is exceptional and they stand behind their repairs."</p>
+                    <div class="font-semibold text-gray-900">Sarah Johnson</div>
+                    <div class="text-gray-500 text-sm">Business Owner</div>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex mb-4">
+                        <span class="w-5 h-5 flex items-center justify-center text-yellow-400">
+                            <i class="ri-star-fill"></i>
+                        </span>
+                        <span class="w-5 h-5 flex items-center justify-center text-yellow-400">
+                            <i class="ri-star-fill"></i>
+                        </span>
+                        <span class="w-5 h-5 flex items-center justify-center text-yellow-400">
+                            <i class="ri-star-fill"></i>
+                        </span>
+                        <span class="w-5 h-5 flex items-center justify-center text-yellow-400">
+                            <i class="ri-star-fill"></i>
+                        </span>
+                        <span class="w-5 h-5 flex items-center justify-center text-yellow-400">
+                            <i class="ri-star-fill"></i>
+                        </span>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Emergency brake failure on my delivery truck - they got me in same day and had it fixed within hours. Professional, fast, and reliable. They saved my business from major downtime."</p>
+                    <div class="font-semibold text-gray-900">David Thompson</div>
+                    <div class="text-gray-500 text-sm">Delivery Service Owner</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
+                <p class="text-xl text-gray-600">Ready to get your vehicle serviced? Contact us today to schedule an appointment.</p>
+            </div>
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div>
+                    <div class="bg-gray-50 rounded-lg p-8 mb-8">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-6">Contact Information</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <span class="w-6 h-6 flex items-center justify-center text-primary mr-4 mt-1">
+                                    <i class="ri-map-pin-line"></i>
+                                </span>
+                                <div>
+                                    <div class="font-semibold text-gray-900">Address</div>
+                                    <div class="text-gray-600">1247 Industrial Drive<br>Springfield, IL 62701</div>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <span class="w-6 h-6 flex items-center justify-center text-primary mr-4 mt-1">
+                                    <i class="ri-phone-line"></i>
+                                </span>
+                                <div>
+                                    <div class="font-semibold text-gray-900">Phone</div>
+                                    <div class="text-gray-600">(555) 123-4567</div>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <span class="w-6 h-6 flex items-center justify-center text-primary mr-4 mt-1">
+                                    <i class="ri-mail-line"></i>
+                                </span>
+                                <div>
+                                    <div class="font-semibold text-gray-900">Email</div>
+                                    <div class="text-gray-600">info@profixauto.com</div>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <span class="w-6 h-6 flex items-center justify-center text-primary mr-4 mt-1">
+                                    <i class="ri-time-line"></i>
+                                </span>
+                                <div>
+                                    <div class="font-semibold text-gray-900">Business Hours</div>
+                                    <div class="text-gray-600">
+                                        Mon - Fri: 7:00 AM - 6:00 PM<br>
+                                        Saturday: 8:00 AM - 4:00 PM<br>
+                                        Sunday: Closed
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg h-64" style="background-image: url('https://public.readdy.ai/gen_page/map_placeholder_1280x720.png'); background-size: cover; background-position: center;">
+                    </div>
+                </div>
+                <div>
+                    <form class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
+                            <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm" placeholder="Enter your full name">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+                            <input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm" placeholder="Enter your email">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
+                            <input type="tel" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm" placeholder="Enter your phone number">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Vehicle Information</label>
+                            <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm" placeholder="Year, Make, Model">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Service Needed</label>
+                            <div class="relative">
+                                <button type="button" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm text-left bg-white pr-8">
+                                    Select a service
+                                </button>
+                                <span class="absolute right-3 top-1/2 transform -translate-y-1/2 w-5 h-5 flex items-center justify-center text-gray-400">
+                                    <i class="ri-arrow-down-s-line"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                            <textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm" placeholder="Describe your issue or service needs"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-primary text-white py-3 !rounded-button hover:bg-blue-700 transition-colors whitespace-nowrap font-medium">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-primary">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">Ready to Schedule Your Service?</h2>
+            <p class="text-xl text-blue-100 mb-8">Book your appointment online through our integrated scheduling system.</p>
+            <div class="bg-white rounded-lg p-8 max-w-2xl mx-auto">
+                <h3 class="text-xl font-semibold text-gray-900 mb-4">Online Appointment Booking</h3>
+                <p class="text-gray-600 mb-6">Connect with our Shop Management System to schedule your service appointment at your convenience.</p>
+                <button class="bg-secondary text-white px-8 py-3 !rounded-button hover:bg-yellow-600 transition-colors whitespace-nowrap font-medium">
+                    <span class="w-5 h-5 flex items-center justify-center inline-block mr-2">
+                        <i class="ri-calendar-line"></i>
+                    </span>
+                    Book Appointment Now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <img width="160px" height="100px" src="https://i.ibb.co.com/L750Ykz/Screenshot-2025-11-28-231815.png">
+                    <p class="text-gray-400 mt-4">Professional automotive and heavy-duty repair services you can trust. Quality work, honest pricing, exceptional service.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#home" class="hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors">Services</a></li>
+                        <li><a href="#gallery" class="hover:text-white transition-colors">Gallery</a></li>
+                        <li><a href="#testimonials" class="hover:text-white transition-colors">Testimonials</a></li>
+                        <li><a href="#contact" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Engine Diagnostics</li>
+                        <li>Brake Services</li>
+                        <li>Transmission Repair</li>
+                        <li>Heavy Duty Maintenance</li>
+                        <li>Electrical Systems</li>
+                        <li>AC & Heating</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Connect With Us</h4>
+                    <div class="flex space-x-4 mb-4">
+                        <span class="w-8 h-8 flex items-center justify-center bg-gray-800 rounded-full hover:bg-gray-700 transition-colors cursor-pointer">
+                            <i class="ri-facebook-fill"></i>
+                        </span>
+                        <span class="w-8 h-8 flex items-center justify-center bg-gray-800 rounded-full hover:bg-gray-700 transition-colors cursor-pointer">
+                            <i class="ri-instagram-fill"></i>
+                        </span>
+                        <span class="w-8 h-8 flex items-center justify-center bg-gray-800 rounded-full hover:bg-gray-700 transition-colors cursor-pointer">
+                            <i class="ri-google-fill"></i>
+                        </span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Follow us for updates and latest work!</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 ProFix Auto & Heavy Duty Repair. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script id="navigation">
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('nav a[href^="#"]');
+            const mobileMenuButton = document.querySelector('button[class*="md:hidden"]');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script id="forms">
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.querySelector('form');
+            const serviceDropdown = document.querySelector('button[type="button"]');
+            
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    alert('Thank you for your message! We will get back to you soon.');
+                });
+            }
+            
+            if (serviceDropdown) {
+                serviceDropdown.addEventListener('click', function() {
+                    alert('Service selection dropdown would integrate with your booking system.');
+                });
+            }
+        });
+    </script>
+
+    <script id="appointments">
+        document.addEventListener('DOMContentLoaded', function() {
+            const appointmentButtons = document.querySelectorAll('button[class*="bg-primary"], button[class*="bg-secondary"]');
+            
+            appointmentButtons.forEach(button => {
+                if (button.textContent.includes('Book') || button.textContent.includes('Schedule') || button.textContent.includes('Appointment')) {
+                    button.addEventListener('click', function() {
+                        alert('This would integrate with your Shop Management System for online booking.');
+                    });
+                }
+            });
+        });
+    </script>
+
+<script>
+    !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.crossOrigin = "anonymous", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+    posthog.init('phc_t9tkQZJiyi2ps9zUYm8TDsL6qXo4YmZx0Ot5rBlAlEd', {
+        api_host: 'https://us.i.posthog.com',
+        autocapture: false,
+        capture_pageview: false,
+        capture_pageleave: false,
+        capture_performance: {
+            web_vitals: false,
+        },
+        rageclick: false,
+    })
+    window.shareKey = 'iaY8H7YbQDajNE9FKIRnlA';
+    window.host = 'readdy.ai';
+</script>
+
+</html>
